@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literatura - Catálogo de Libros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+<header>
+    <h1>Literatura</h1>
+    <p>Encuentra y gestiona tu colección de libros favoritos</p>
+</header>
+<main>
+    <section id="search-section">
+        <h2>Buscar Libro</h2>
+        <div>
+            <input type="text" id="search-input" placeholder="Ingresa el título del libro">
+            <button id="search-button">Buscar</button>
+        </div>
+        <p id="search-error" class="error"></p>
+        <ul id="results-list"></ul>
+    </section>
+
+    <section id="catalog-section">
+        <h2>Catálogo de Libros</h2>
+        <button id="load-catalog-button">Cargar Catálogo</button>
+        <ul id="catalog-list"></ul>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 Literatura. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
